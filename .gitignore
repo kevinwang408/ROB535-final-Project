@@ -1,0 +1,10 @@
+# 忽略資料集
+data/
+# 忽略 Python 編譯檔
+__pycache__/
+*.pyc
+
+# 忽略開發環境設定
+.vscode/
+.idea/
+work_dirs/

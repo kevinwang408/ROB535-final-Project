@@ -1,0 +1,16 @@
+# 忽略資料集
+data/
+data
+
+# 忽略訓練過程產生的權重檔和 log
+work_dirs/
+*.pth
+*.pkl
+
+# 忽略 Python 編譯檔
+__pycache__/
+*.pyc
+
+# 忽略開發環境設定
+.vscode/
+.idea/

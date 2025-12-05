@@ -1,0 +1,15 @@
+DONE (t=2.51s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.543
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.881
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.589
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.411
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.553
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.666
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.655
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.655
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.655
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.524
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.657
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.770
+11/30 20:54:15 - mmengine - INFO - bbox_mAP_copypaste: 0.543 0.881 0.589 0.411 0.553 0.666
+11/30 20:54:15 - mmengine - INFO - Epoch(test) [1497/1497]    coco/bbox_mAP: 0.5430  coco/bbox_mAP_50: 0.8810  coco/bbox_mAP_75: 0.5890  coco/bbox_mAP_s: 0.4110  coco/bbox_mAP_m: 0.5530  coco/bbox_mAP_l: 0.6660  data_time: 0.0087  time: 0.1112
